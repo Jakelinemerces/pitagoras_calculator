@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 .container{
     justify-content: center;
     display: flex;
@@ -326,4 +327,19 @@ background-color: #f473ee;
     height:  55px;
     width: 260px;
 
+}
+footer {
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 239, 222, 0.1); ;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer h4 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'DM Mono', monospace;
+    color: #ffefde;
 }
