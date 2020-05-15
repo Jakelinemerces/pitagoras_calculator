@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ body {
 
  .square_1 {
      width: 2px;
-     height: 50px;
+     height: 40px;
      background-color: #ff00ff;
      position: absolute;
      margin-top: 150px;
@@ -45,7 +45,7 @@ body {
 
  .square_2 {
     width: 2px;
-    height: 50px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
     margin-top: 400px;
@@ -54,55 +54,55 @@ body {
 
 .square_3 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 300px;
+    margin-left: -600px;
 }
 
 .square_4 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 100px;
+    margin-left: -600px;
 }
 .square_5 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 50px;
+    margin-left: -529px;
 }
 
 .square_6 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 30px;
+    margin-left: -320px;
 }
 
 .square_7 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 40px;
+    margin-left: -175px;
 }
 
 .square_8 {
     width: 2px;
-    height: 60px;
+    height: 40px;
     background-color: #ff00ff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: -470px;
+    margin-top: 40px;
+    margin-left: -60px;
 }
 
 
