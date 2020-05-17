@@ -1,80 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-      <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 <body>
-    <!--Header and Title--> 
-     <header>
-        <div class="container">  
-          <div class="title">
-              <h1>Calculadora <br>de Pitagoras</h1>
-            </div>  
-          <div class="logo">
-              <img src="assets/img/triangle_abc.svg" width="170">
-          </div>
-          <div class="triangle_2">
-            <img src="assets/img/triangle_icon.png"> 
-          </div>   
-          <div class="triangle_3">
-            <img src="assets/img/triangle_icon.png"> 
-          </div> 
-          <div class="square_1"></div>
-          <div class="square_2"></div>
-          <div class="square_3"></div>
-          <div class="square_4"></div>
-          <div class="square_5"></div>
-          <div class="square_6"></div>
-          <div class="square_7"></div>
-          <div class="square_8"></div>
-        </div>   
-      </header>
-      <section>
-          <div class="container">
-            <div class="main">
-             <div class="request"> 
-                <form  action=""> 
-                    <label>a (Cateto 1)</label>
-                    <input type="number">  
-                    <br>
-                    <br>
+  <header>
+    <div class="container">  <!--Class container para display flex-->
+    
+    <div class="title"> 
+      <h1>Calculadora <br>de Pitagoras</h1>
+    </div>  
 
-                    <label>b (Cateto 2)</label>                 
-                    <input type="number">
-                    <br>
-                    <button>CALCULAR</button>
-                </form>
-             </div>  
-             <div class="container">
-                 <div class="keyboard">
+    <!--Logo-->
+    <div class="logo">
+      <img src="assets/img/triangle_abc.svg" width="170"> 
+    </div>
 
-                    <button id="btn_7" >7</button>
-                    <button id="btn_8">8</button>
-                    <button id="btn_9">9</button>
-                    <button id="btn_4">4</button>
-                    <button id="btn_5">5</button>
-                    <button id="btn_6">6</button>
-                    <button id="btn_1">1</button>
-                    <button id="btn_2">2</button>
-                    <button id="btn_3">3</button>
-                    <button id="btn_0">0</button>
-                    <button id="btn_dott">,</button>
-                </div>
-                <div class="result">
-                    <h1>c = hipotenusa</h1>
-                    <input type="text" id="answer" name="answer" readonly="true">
-                 </div>  
-             </div>
-           </div>  
-        </div>
-      </section>
-      <footer>
-          <h4>"A soma dos quadrados dos catetos é igual ao quadrado da hipotenusa"</h4>
-      </footer>
+    <!--Triangulos do fundo-->
+    <div class="triangle_2">
+      <img src="assets/img/triangle_icon.png"> 
+    </div>   
+    <div class="triangle_3">
+      <img src="assets/img/triangle_icon.png"> 
+    </div> 
+    <!--Triangulos do fundo-->
+
+    <!--Triangulos ao redor do titulo-->
+    <div class="square_1"></div>
+    <div class="square_2"></div>
+    <div class="square_3"></div>
+    <div class="square_4"></div>
+    <div class="square_5"></div>
+    <div class="square_6"></div>
+    <div class="square_7"></div>
+    <div class="square_8"></div>
+     <!--Retangulos ao redor do titulo-->
+  </div>   
+</header>
+
+<!--Conteúdo principal do site-->
+<section>
+  <div class="container">
+
+    <!--Conteúdo principal do site-->
+    <div class="main">
+    <div class="request"> 
+
+    <!--Valores dos catetos-->
+  <form  action=""> 
+    <label>a (Cateto 1)</label>
+    <input type="number">  
+   <br><br>
+    <label>b (Cateto 2)</label>                 
+    <input type="number">
+    <br>
+    <button>CALCULAR</button>
+  </form>
+  <!--Valores dos catetos-->
+  </div>  
+    <!--Botões e teclado-->
+  <div class="container">
+  <div class="keyboard">
+  <button id="btn_7" >7</button>
+  <button id="btn_8">8</button>
+  <button id="btn_9">9</button>
+  <button id="btn_4">4</button>
+  <button id="btn_5">5</button>
+  <button id="btn_6">6</button>
+  <button id="btn_1">1</button>
+  <button id="btn_2">2</button>
+  <button id="btn_3">3</button>
+  <button id="btn_0">0</button>
+  <button id="btn_dott">,</button>
+  </div>
+     <!--Botões e teclado-->
+
+     <!--Resultado-->
+  <div class="result">
+    <h1>c = hipotenusa</h1>
+    <input type="text" id="answer" name="answer" readonly="true">
+  </div>  
+  </div>
+  </div>  
+  </div>
+  </section>
+
+  <!--Rodapé-->
+<footer>
+  <h4>"A soma dos quadrados dos catetos é igual ao quadrado da hipotenusa"</h4>
+</footer>
 </body>
 </html>
