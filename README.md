@@ -10,4 +10,4 @@ em prática o conhecimento realizado em cursos.<h3>
 
 <h1>Screenshots<h1>
 
-<img src="Projeto Calculadora de Pitagoras\media\Screenshot_1.png">
+<img src="media\Screenshot_1.png">
