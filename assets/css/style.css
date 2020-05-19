@@ -12,6 +12,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090108",endColorstr="#f574ef",GradientType=1);
     background-repeat: no-repeat;
     width: 100%;
+ 
 }
 
 /*Container para  o display flex*/
@@ -146,10 +147,10 @@ header .logo {
 /*Conteudo principal */
 
 .main {
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: #6d356a;
-    width: 60%;
-    height: 100vh;
+    width: 750px;
+    height: 650px;
     border-radius: 30px;
 }
 
@@ -206,7 +207,7 @@ header .logo {
     border-radius: 30px;
     box-shadow: 1px 1px  15px 1px #f473ee;
     background-color: #6d356a;
-    width: 30%;
+    width: 40%;
     height: 320px;
     display: flex;
     justify-content: space-between;
@@ -356,9 +357,8 @@ background-color: #f473ee;
 
 }
 footer {
-    margin-top: 50px;
-    border-top: 1px solid rgba(255, 239, 222, 0.1); ;
-    height: 30vh;
+    margin-top: 15px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -371,4 +371,3 @@ footer h4 {
     font-family: 'DM Mono', monospace;
     color: #ffefde;
 }
-
