@@ -5,8 +5,8 @@
 juntamente com o teclado, para calcular o valor da hipotenusa de dois triângulos
 retângulos (teorema de pitágoras), e em mostrar o valor ao usuário utilizando a requisição de uma API.<h4>
 
-<h6>Realizando este projeto, estarei aprimorando os meus conhecimentos em HTML5, CSS3 e JavaScript e colocando
-em prática o conhecimento realizado em cursos.<h6>
+<h4>Realizando este projeto, estarei aprimorando as minhas skills em HTML5, CSS3 e JavaScript e colocando
+em prática o conhecimento realizado em cursos.<h4>
 
 <h1>Screenshot<h1>
 
