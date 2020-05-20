@@ -10,9 +10,7 @@ body {
     background: -webkit-linear-gradient(135deg, rgba(9,1,8,1) 3%, rgba(245,116,239,1) 100%);
     background: linear-gradient(135deg, rgba(9,1,8,1) 3%, rgba(245,116,239,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090108",endColorstr="#f574ef",GradientType=1);
-    background-repeat: no-repeat;
-    width: 100%;
- 
+    background-repeat: no-repeat; 
 }
 
 /*Container para  o display flex*/
@@ -129,7 +127,7 @@ header {
 header .title h1 {
     margin-top: 100px;
     font-family: 'DM Mono', monospace;
-    font-size: 50px;
+    font-size: 3rem;
     color: #fbf9f6;
     text-transform: uppercase;
     letter-spacing: 17px;
@@ -207,7 +205,7 @@ header .logo {
     border-radius: 30px;
     box-shadow: 1px 1px  15px 1px #f473ee;
     background-color: #6d356a;
-    width: 40%;
+    width: 35%;
     height: 320px;
     display: flex;
     justify-content: space-between;
@@ -371,3 +369,329 @@ footer h4 {
     font-family: 'DM Mono', monospace;
     color: #ffefde;
 }
+
+
+@media   (max-width:600px) { 
+    .triangle_2,
+    .triangle_3 {
+       width: 40px;
+       position: absolute;
+       margin-top: 150px;
+       margin-left: 500px; 
+       display: none;                                            
+    }
+
+
+footer {
+    margin-top: 15px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .container{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    
+     }
+    
+     /*Classes para os triangulos de fundo*/
+     .triangle_2,
+     .triangle_3 {
+        width: 40px;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 500px; 
+        display: none;                                            
+     }
+
+    
+      /*Classes para os triangulos de fundo - end*/
+    
+    
+    
+    /*Classes para os retangulos de fundo */
+     .square_1,
+     .square_2,
+     .square_3,
+     .square_4,
+     .square_5,
+     .square_6,
+     .square_7,
+     .square_8
+                 {
+         width: 2px;
+         height: 40px;
+         background-color: #ff00ff;
+         position: absolute;
+         margin-top: 150px;
+         margin-left: -470px;
+         display: none;
+     }
+ 
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    /*Class para o titulo */
+    
+    header .title h1 {
+        font-family: 'DM Mono', monospace;
+        font-size: 100%;
+        color: #fbf9f6;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+        text-shadow: 2px 2px 8px #ef8f37;
+        
+    
+    }
+    
+    /*Class para o logo */
+    
+    header .logo img {
+        width: 100px;
+        display: none;
+    }
+    
+    /*Conteudo principal */
+    
+    .main {
+        margin-top: 30px;
+        background-color: #6d356a;
+        width: 100%;
+        height: 600px;
+        border-radius: 30px;
+    }
+    
+    /*Valores dos catetos */
+    
+    .request  {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        margin-top: 3%;
+    }
+    
+    .request form {
+        display: block;
+        margin-top: 50px;
+    }
+    
+    .request label {
+        font-size: 1.1rem;
+        font-family: 'DM Mono', monospace;
+        color: #ffefde;
+        letter-spacing: 5px;
+    }
+    
+    .request  input {
+        border: 1px solid #ffefde;
+        border-radius: 15px;
+        background: #ffefde;
+        height:  40px;
+        width: 180px;
+    
+    }
+    
+    .request  button {
+        padding: 10px;
+        color:  #ffefde; 
+        font-size: 0.7rem;
+        font-family: 'DM Mono', monospace;
+        letter-spacing: 2px;
+        background: #f574ef;
+        border: 0;
+        border-radius: 15px;
+        height:  40px;
+        width: 40%;
+    }
+    
+    /*Teclado calculadora*/
+    
+    .keyboard {
+        border-radius: 30px;
+        box-shadow: 1px 1px  15px 1px #f473ee;
+        background-color: #6d356a;
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-right: 5%;
+    }
+    
+    
+    /*Teclado calculadora / Botões*/
+    button {
+        border-radius: 30px;
+        outline: 0;
+    }
+    
+    /*formatação de botões*/
+    
+    #btn_7,
+    #btn_8,
+    #btn_9,
+    #btn_4,
+    #btn_5,
+    #btn_6,
+    #btn_1,
+    #btn_2,
+    #btn_3 {
+        padding: 10px;
+        color: #ffefde;
+        height: 75px;
+        width: 30%;
+        border-bottom: 1px solid #ffefde;
+        font-size: 1.2rem;
+        background-color: #6d356a;
+        font-family: 'DM Mono', monospace;
+        border: none;
+    
+    }
+        
+    #btn_0 {
+        color: #ffefde;
+        width: 65%;
+        height: 75px;
+        font-size: 1.2rem;
+        background-color: #6d356a;
+        font-family: 'DM Mono', monospace;
+        border: none;
+    }
+    
+    #btn_dott {
+        background-color: #6d356a;
+        font-size: 30px;
+        color: #ffefde;
+        width: 30%;
+        height: 75px;
+        font-family: 'DM Mono', monospace;
+        border: none;
+    }
+    
+    #btn_7:hover,
+    #btn_8:hover,
+    #btn_9:hover,
+    #btn_4:hover,
+    #btn_5:hover,
+    #btn_6:hover,
+    #btn_1:hover,
+    #btn_2:hover,
+    #btn_3:hover,
+    #btn_0:hover,
+    #btn_dott:hover {
+    background-color: #f473ee;
+    }
+    
+    
+    #btn_7,
+    #btn_8 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+        
+    }
+    
+    #btn_9 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+    }
+    
+    
+    #btn_4,
+    #btn_5 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+        
+    }
+    
+    #btn_6 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+    }
+    
+    
+    #btn_1,
+    #btn_2 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+        
+    }
+    
+    #btn_3 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+    }
+    
+    #btn_dott {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+    }
+    
+    #btn_0 {
+        border-bottom: 1px solid rgba(255, 239, 222, 0.1);
+        border-right: 1px solid rgba(255, 239, 222, 0.1);
+    }
+    
+    
+    /*resultado*/
+    
+    
+    .result {
+  
+    }
+    
+    .result h1 {
+        font-size: 1.2rem;
+        font-weight: lighter;
+        font-family: 'DM Mono', monospace;
+        color: #ffefde;
+        margin: 10px;
+    }
+    
+    .result input {
+        background: #6d356a;
+        border: 3px solid #ffefde;
+        border-radius: 15px;
+        height:  40px;
+        width: 180px;
+    
+    
+    
+    /*Rodapé*/
+    
+    }
+    footer {
+        margin-top: 15px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h4 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        font-weight: lighter;
+        font-family: 'DM Mono', monospace;
+        color: #ffefde;
+    }
+
+
+}
+
